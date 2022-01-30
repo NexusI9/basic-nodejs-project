@@ -1,0 +1,17 @@
+{
+  "name": "kinoji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "sass:watch": "node-sass -w ./src/public/stylesheets/",
+    "livereload": "live-reload --port 9091 ./src/**/*",
+    "start": "npm run sass:watch & npm run livereload"
+  },
+  "author": "Naizu",
+  "license": "ISC",
+  "dependencies": {
+    "livereload": "^0.9.3",
+    "node-sass": "^7.0.1"
+  }
+}
