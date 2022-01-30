@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "sass:watch": "node-sass -w ./src/public/stylesheets/ -o ./src/public/stylesheets/",
+    "sass:watch": "node-sass -w ./src/stylesheets/ -o ./dist/stylesheets/",
     "livereload": "live-reload --port 9091 ./src/**/*",
     "start": "npm run sass:watch & npm run livereload"
   },
